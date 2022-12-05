@@ -29,5 +29,5 @@ proxies:
   port: 443
   password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
   udp: true
-  sni: meet.google.com
+  sni: chat.sociomile.com
   skip-cert-verify: true
