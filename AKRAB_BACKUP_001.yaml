@@ -1,5 +1,5 @@
 proxies:
-- name: danugayeng01b
+- name: danugayeng01a
   type: trojan
   server: do-gayeng.potatonc.my.id
   port: 443
