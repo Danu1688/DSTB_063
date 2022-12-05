@@ -1,5 +1,5 @@
 proxies:
-- name: danugayeng01
+- name: danugayeng01a
   type: trojan
   server: chat.sociomile.com
   port: 443
@@ -9,10 +9,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /trojan
     headers:
       Host: do-gayeng.potatonc.my.id
-- name: danugayeng01
+- name: danugayeng01b
   type: trojan
   server: do-gayeng.potatonc.my.id
   port: 443
@@ -23,7 +23,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: trojan
-- name: danugayeng01
+- name: danugayeng01c
   type: trojan
   server: do-gayeng.potatonc.my.id
   port: 443
