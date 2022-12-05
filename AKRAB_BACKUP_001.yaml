@@ -1,17 +1,4 @@
 proxies:
-- name: danugayeng01a
-  type: trojan
-  server: chat.sociomile.com
-  port: 443
-  password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
-  udp: true
-  sni: do-gayeng.potatonc.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do-gayeng.potatonc.my.id
 - name: danugayeng01b
   type: trojan
   server: do-gayeng.potatonc.my.id
@@ -31,3 +18,16 @@ proxies:
   udp: true
   sni: chat.sociomile.com
   skip-cert-verify: true
+- name: danugayeng01a
+  type: trojan
+  server: chat.sociomile.com
+  port: 443
+  password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
+  udp: true
+  sni: do-gayeng.potatonc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-gayeng.potatonc.my.id
