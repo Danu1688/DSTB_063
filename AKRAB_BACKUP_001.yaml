@@ -10,7 +10,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: trojan
-- name: danuterong01a
+- name: danuterong01b
   type: trojan
   server: chat.sociomile.com
   port: 443
