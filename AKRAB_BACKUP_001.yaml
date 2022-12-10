@@ -5,14 +5,14 @@ proxies:
   port: 443
   password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
   udp: true
-  sni: parasource.com
+  sni: teams.live.com
   skip-cert-verify: true
   network: grpc
   grpc-opts:
     grpc-service-name: trojan
 - name: danuterong01b
   type: trojan
-  server: parasource.com
+  server: teams.live.com
   port: 443
   password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
   udp: true
