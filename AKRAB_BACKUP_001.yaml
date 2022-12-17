@@ -1,5 +1,5 @@
 proxies:
-- name: danu06
+- name: danuWs06
   type: trojan
   server: wsindo.aryossh.my.id
   port: 443
