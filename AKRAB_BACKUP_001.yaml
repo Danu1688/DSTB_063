@@ -9,7 +9,7 @@ proxies:
   skip-cert-verify: true
   network: websocket
   ws-opts:
-    path: "/trojanws
+    path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
 - name: danugayeng01a
