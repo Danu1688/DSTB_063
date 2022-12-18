@@ -1,5 +1,5 @@
 proxies:
-- name: danuGrpc01
+- name: danuWsGo01
   type: trojan
   server: 172.67.199.34
   port: 443
