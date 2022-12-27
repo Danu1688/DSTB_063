@@ -142,7 +142,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-qword5.sshpremium.my.id
-- name: danGrpc04
+- name: danuGrpc04
   type: trojan
   server: wsindo.aryossh.my.id
   port: 443
