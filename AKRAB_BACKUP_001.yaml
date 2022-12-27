@@ -40,7 +40,7 @@ proxies:
       Host: sg-do2.sshpremium.my.id
 - name: danuWs04
   type: trojan
-  server: 172.67.199.34
+  server: 104.20.74.141
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
