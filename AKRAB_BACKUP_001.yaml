@@ -131,7 +131,7 @@ proxies:
       Host: id-qword5.sshpremium.my.id
 - name: danuWs10b
   type: trojan
-  server: 172.67.199.34
+  server: 104.21.21.147
   port: 443
   password: cbb998e8-99db-4508-b052-24f347e53630
   udp: true
