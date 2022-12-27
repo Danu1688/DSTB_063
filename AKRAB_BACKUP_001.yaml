@@ -118,7 +118,7 @@ proxies:
       Host: id-magna.sshpremium.my.id
 - name: danuWS10a
   type: trojan
-  server: crl.identrust.com
+  server: hohm.microsoft.com
   port: 443
   password: cbb998e8-99db-4508-b052-24f347e53630
   udp: true
