@@ -142,9 +142,9 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuGrpc04
+- name: danuGrpc04a
   type: trojan
-  server: wsindo.aryossh.my.id
+  server: 104.21.21.147
   port: 443
   password: 2d0c0e9e-1bc7-473c-8943-3408cfb0f8cb
   udp: true
