@@ -122,26 +122,26 @@ proxies:
   port: 443
   password: cbb998e8-99db-4508-b052-24f347e53630
   udp: true
-  sni: id-qword5.sshpremium.my.id
+  sni: id-qword5.aryossh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-qword5.sshpremium.my.id
+      Host: id-qword5.aryossh.my.id
 - name: danuWs10b
   type: trojan
   server: 104.21.21.147
   port: 443
   password: cbb998e8-99db-4508-b052-24f347e53630
   udp: true
-  sni: id-qword5.sshpremium.my.id
+  sni: id-qword5.aryossh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-qword5.sshpremium.my.id
+      Host: id-qword5.aryossh.my.id
 - name: danuGrpc04
   type: trojan
   server: wsindo.aryossh.my.id
