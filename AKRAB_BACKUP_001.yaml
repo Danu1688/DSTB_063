@@ -18,19 +18,6 @@ proxies:
   port: 443
   password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
   udp: true
-  sni: gomarketplacefront-cf.zoom.us
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: gomarketplacefront-cf.zoom.us
-- name: danuWs01-SNIb
-  type: trojan
-  server: sg-ctn.sshpremium.my.id
-  port: 443
-  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
-  udp: true
   sni: gomarketplacecontent-cf.zoom.us
   skip-cert-verify: true
   network: ws
@@ -38,6 +25,45 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacecontent-cf.zoom.us
+- name: danuWs01-SNIb
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuWs01-SNIc
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  udp: true
+  sni: marketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: marketplacefront-cf.zoom.us
+- name: danuWs01-SNId
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  udp: true
+  sni: marketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: marketplacecontent-cf.zoom.us
 - name: danuWs01
   type: trojan
   server: 172.67.199.34
