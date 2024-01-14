@@ -1,5 +1,5 @@
 proxies:
-- name: SvrAtha51_Live_IP1
+- name: SvrAtha51_Ilped_IP1
   type: trojan
   server: 104.18.3.2
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
-- name: SvrDo51_Live_IP1
+- name: SvrDo51_Ilped_IP1
   type: trojan
   server: 104.18.3.2
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: SvrNusa51_Live_IP1
+- name: SvrNusa51_Ilped_IP1
   type: trojan
   server: 104.18.3.2
   port: 443
